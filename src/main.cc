@@ -32,7 +32,7 @@ int main() {
 
         string text;
         getline(cin, text);
-
+        cout << en_de_cryption_menu(en_de_crypt, crypt_num, text) << endl;
         
     }
 }
