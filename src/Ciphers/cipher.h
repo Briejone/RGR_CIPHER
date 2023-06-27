@@ -24,6 +24,36 @@ string decodeAtbash(string textEncoded);
 string encodeSkitala(string text, float diameter);
 string decodeSkitala(string textEncoded, float diameter);
 
+string encodeAtbash(string text);
+string decodeAtbash(string textEnc);
+
+string encryptCaesar(string message, int key);
+string decryptCaesar(string message, int key);
+
+void createNewAlphabet(char* newAlphabet);
+string encodeCodeword(string source_text, char* ALPHABET_ENCODED);
+string decodeCodeword(string encoded_text, char* ALPHABET_ENCODED);
+
+string encodeGronsfeld(string text, int key);
+string decodeGronsfeld(string textEnc, int key);
+
+string encodeMatrix(string text);
+string decodeMatrix(string text);
+
+string encodeSkitala(string text, float diameter);
+string decodeSkitala(string textEnc, float diameter);
+
+string encryptTable(string plaintext, string key);
+string decryptTable(string ciphertext, string key);
+
+string encodeTarabar(string& text);
+string decodeTarabar(string& encodedText);
+
+void createVigenereTable();
+string encodeVizhiner(string text, string mappedKey);
+int itrCount(int key, int msg);
+string decodeVizhiner(string text, string mappedKey);
+
 enum class codes {
 	ENCODE = 1234,
 	DEDCODE = 5678,

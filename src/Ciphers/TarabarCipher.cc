@@ -1,6 +1,6 @@
 #include "cipher.h"
 
-std::string encodeText(string& text) {
+string encodeTarabar(string& text) {
     std::string encodedText;
     for (char c : text) {
         switch (c) {
@@ -41,8 +41,7 @@ std::string encodeText(string& text) {
     }
     return encodedText;
 }
-
-std::string decodeText(string& encodedText) {
+string decodeTarabar(string& encodedText) {
     std::string decodedText;
     for (char c : encodedText) {
         switch (c) {

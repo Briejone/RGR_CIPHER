@@ -67,7 +67,7 @@ int itrCount(int key, int msg) {
     return counter;
 }
 
-string decodeDecryption(string text, string mappedKey) {
+string decodeVizhiner(string text, string mappedKey) {
     string result = "";
     for (int i = 0; i < text.length(); i++) {
         if (text[i] == 32 && mappedKey[i] == 32) {
