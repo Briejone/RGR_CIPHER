@@ -1,10 +1,4 @@
-#include <iostream>        
-#include <fstream>        
-#include <string>        
-#include <algorithm> // для функции replace    
-#include <cstring> 
- 
-using namespace std; 
+#include "cipher.h"
  
 const int ALPHABET_SIZE = 26; 
  

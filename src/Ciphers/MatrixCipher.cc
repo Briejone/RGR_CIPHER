@@ -1,11 +1,4 @@
-#include <iostream>  
-#include <fstream>  
-#include <algorithm>  
-#include <string>  
-#include <math.h>   
-#include <clocale>
-using namespace std;
-
+#include "cipher.h"
 string encodeMatrix(string text) {
     int u = text.length();
     int m;

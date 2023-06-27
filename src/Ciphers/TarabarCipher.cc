@@ -1,8 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-
-using namespace std;
+#include "cipher.h"
 
 std::string encodeText(string& text) {
     std::string encodedText;

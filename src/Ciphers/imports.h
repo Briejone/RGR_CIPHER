@@ -7,5 +7,6 @@
 #include <map>
 #include <fstream>
 #include <string>
-
+#include <algorithm>
+#include <clocale>
 using namespace std;

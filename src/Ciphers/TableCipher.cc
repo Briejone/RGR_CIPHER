@@ -1,11 +1,4 @@
-#include <iostream>
-#include <string>
-#include <cstdlib>
-#include <fstream>
-#include <vector>
-#include <algorithm>   
-using namespace std;
-
+#include "cipher.h"
 // Функция шифрования
 string encryptTable(string plaintext, string key) {
     string ciphertext = "";

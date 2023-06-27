@@ -8,6 +8,8 @@
 #include <map>
 #include <fstream>
 #include <string>
+#include <algorithm>
+#include <string.h>
 
 using namespace std;
 

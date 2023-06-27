@@ -1,10 +1,4 @@
-#include <iostream>  
-#include <fstream>  
-#include <algorithm>  
-#include <string>
-#include <cctype>
-#include <math.h>   
-using namespace std;
+#include "cipher.h"
 
 string encryptCaesar(string message, int key) { //шифрование
     string result = "";
