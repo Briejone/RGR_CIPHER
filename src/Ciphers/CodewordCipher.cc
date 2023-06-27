@@ -14,8 +14,8 @@ void createNewAlphabet(char* newAlphabet) {
     char word[ALPHABET_SIZE + 1]; 
     bool validInput = false; 
     while (!validInput) { 
-        cout << "Введите ключ: "; 
-        cin >> word; 
+        std::cout << "Введите ключ: "; 
+        std::cin >> word;
         validInput = true; 
         int wordLength = strlen(word); 
         for (int i = 0; i < wordLength; i++) { 
@@ -48,7 +48,7 @@ void createNewAlphabet(char* newAlphabet) {
 } 
  
  
-string encode_text(string source_text, char* ALPHABET_ENCODED) { 
+string encodeCodeword(string source_text, char* ALPHABET_ENCODED) { 
     string text_encoded; // строка для хранения закодированного текста 
     string encoded_text; 
     char ALPHABET_DECODED[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
@@ -69,7 +69,7 @@ string encode_text(string source_text, char* ALPHABET_ENCODED) {
     return text_encoded; 
 } 
  
-string decode_text(string encoded_text, char* ALPHABET_ENCODED) { 
+string decodeCodeword(string encoded_text, char* ALPHABET_ENCODED) { 
     string decoded_text; 
     char ALPHABET_DECODED[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
  
