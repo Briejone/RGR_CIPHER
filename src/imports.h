@@ -1,10 +1,9 @@
-// используемые библиотеки и классы
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
 #pragma once
 #include <iostream>
 #include <vector>
 #include <cstdlib>
-#include <conio.h>
 #include <locale>
 #include <cmath>
 #include <map>
