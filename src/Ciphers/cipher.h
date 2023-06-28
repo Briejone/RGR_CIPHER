@@ -27,6 +27,7 @@ string decodeSkitala(string textEncoded, float diameter);
 string encodeAtbash(string text);
 string decodeAtbash(string textEnc);
 
+bool _isEnglish_(string str);
 string encryptCaesar(string message, int key);
 string decryptCaesar(string message, int key);
 
