@@ -71,3 +71,10 @@ string decryptTable(string ciphertext, string key) {
 
     return plaintext;
 }
+
+int main() {
+    string text, key;
+    text = "BSOXLSUOSS ";
+    key = "aboba";
+    cout << decryptTable(text, key);
+}

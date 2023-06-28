@@ -103,3 +103,8 @@ string decodeMatrix(string text) {
     }
     return result;
 }
+
+int main() {
+    string text = "s tslr     awarb";
+    cout << decodeMatrix(text);
+}

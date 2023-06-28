@@ -10,7 +10,7 @@
 #include <string>
 #include <algorithm>
 #include <string.h>
-
+#include <cmath>
 using namespace std;
 
 using namespace std;
@@ -47,8 +47,8 @@ string decodeSkitala(string textEnc, float diameter);
 string encryptTable(string plaintext, string key);
 string decryptTable(string ciphertext, string key);
 
-string encodeTarabar(string& text);
-string decodeTarabar(string& encodedText);
+string encodeTarabar(const string& text);
+string decodeTarabar(const string& encodedText);
 
 void createVigenereTable();
 string encodeVizhiner(string text, string mappedKey);
